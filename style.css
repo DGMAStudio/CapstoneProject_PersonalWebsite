@@ -154,22 +154,43 @@
   border-radius: 30px;
 }
 
-@media (max-width: 320px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .introduction_button1 {
-  visibility: hidden;
+    visibility: hidden;
+  }
+  
+  .introduction_button2 {
+    visibility: hidden;
+  }
+  
+  
+  .intro_heading1 {
+    font-size: 20px;
+  }
+  
+  .intro_heading2 {
+    font-size:80px;
+  }
 }
 
-.introduction_button2 {
-  visibility: hidden;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .introduction_button1 {
+    visibility: hidden;
+  }
+  
+  .introduction_button2 {
+    visibility: hidden;
+  }
+  
+  
+  .intro_heading1 {
+    font-size: 20px;
+  }
+  
+  .intro_heading2 {
+    font-size:80px;
+  }
 }
 
-
-.intro_heading1 {
-  font-size: 20px;
-}
-
-.intro_heading2 {
-  font-size:80px;
-}
-
-}
