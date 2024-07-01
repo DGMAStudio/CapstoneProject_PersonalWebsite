@@ -141,12 +141,7 @@
 
 /*Contact Section Styling*/
 
-#contact {
-  display:flex;
-  height:100vh;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .contact_button_text {
   font-weight:bold;
