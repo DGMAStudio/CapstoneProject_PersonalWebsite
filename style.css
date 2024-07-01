@@ -174,3 +174,23 @@
   }
 
 }
+
+@media only screen and (min-width: 600px) {
+  .introduction_button1 {
+    visibility: visible;
+  }
+  
+  .introduction_button2 {
+    visibility: visible;
+  }
+  
+  
+  .intro_heading1 {
+    font-size: 20px;
+  }
+  
+  .intro_heading2 {
+    font-size:80px;
+  }
+
+}
