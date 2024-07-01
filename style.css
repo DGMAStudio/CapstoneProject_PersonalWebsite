@@ -32,11 +32,11 @@
 }
 
 .intro_heading1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .intro_heading2 {
-    font-size:100px;
+    font-size:110px;
 }
 
 .introduction_summary {
@@ -172,29 +172,8 @@
   .intro_heading2 {
     font-size:80px;
   }
-}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .introduction_button1 {
+  .intro_btn_non {
     visibility: hidden;
   }
-  
-  .introduction_button2 {
-    visibility: hidden;
-  }
-  
-  
-  .intro_heading1 {
-    font-size: 20px;
-  }
-  
-  .intro_heading2 {
-    font-size:80px;
-  }
-
-  #intro_btn_non {
-    visibility: hidden;
-  }
-
 }
